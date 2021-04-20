@@ -1,0 +1,58 @@
+body{
+    margin-top: 70px;
+}
+
+.map-container{
+    max-width: 100%; margin: 0 auto
+}
+
+main .nav-link{
+    color: #3575a1 !important;
+}
+
+.nav-pills .nav-link.active{
+    color: white !important;
+    background-color: #3f8abf !important;
+}
+
+.btn-success {
+    color: white !important;
+    background-color: #1cc88a;
+    border-color: #1cc88a;
+}
+
+.btn-success:hover {
+    background-color: #17a673;
+    border-color: #169b6b;
+}
+
+/*
+* ==========================================
+* Navbar
+* ==========================================
+*/
+
+.navbar-custom {
+    background-color: #00274c;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+    color: white;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #d5d7d8;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-custom .navbar-brand img{
+    margin-top: -5px;
+}
