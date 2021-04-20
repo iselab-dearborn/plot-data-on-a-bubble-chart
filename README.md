@@ -1,4 +1,4 @@
-<img src="https://iselab-dearborn.github.io/plot-data-on-a-world-map/images/favicons/apple-touch-icon.png" width="60px"/>
+<img src="https://iselab-dearborn.github.io/plot-data-on-a-bubble-chart/images/favicons/apple-touch-icon.png" width="60px"/>
 
 # Plot Data on a Bubble Chart
 
