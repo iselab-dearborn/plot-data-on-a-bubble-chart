@@ -19,7 +19,7 @@ Access the tool <a href="https://iselab-dearborn.github.io/plot-data-on-a-world-
 
 <div >
     <kbd>
-        <img src="https://iselab-dearborn.github.io/plot-data-on-a-world-map/images/screenshot.png"/>
+        <img src="https://user-images.githubusercontent.com/114015/115430336-45bab480-a1d2-11eb-8a8e-8d8dd80d579e.png"/>
     </kbd>
 </div>
 
