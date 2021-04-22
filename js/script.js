@@ -108,7 +108,7 @@ function transpose() {
     let str = "";
 
     transposed.forEach(el => {
-        str += el.reduce((acc, el) => acc + ";" + el) + "\n";
+        str += el.reduce((acc, el) => acc + settings.separator + el) + "\n";
     });
 
     $("#input-data").val(str);
