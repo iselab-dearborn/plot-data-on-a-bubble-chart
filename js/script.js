@@ -77,7 +77,7 @@ function getParsedData(settings){
 function getSettings(){
     return {
         ignoreZeros: $('#ignore-zeros').prop('checked'),
-        separator: $('#separator').val(),
+        separator: $('#separator').val() == "tab"? "\t" : $('#separator').val(),
         chartTitle: $('#chart-title').val(),
         chartSubtitle: $('#chart-subtitle').val(),
         xAxisTitle: $('#x-axis-title').val(),
