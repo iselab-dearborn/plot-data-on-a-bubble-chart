@@ -54,6 +54,12 @@ function parse(rows, settings){
 
             let value = parseFloat(row[j]);
 
+            let round = parseInt(settings.dataLabelsRounding);
+
+            if (round != -1) {
+                value = parseFloat(value.toFixed(round));
+            }
+
             if (value == 0 && settings.ignoreZeros){
                 continue;
             }
@@ -91,6 +97,7 @@ function getSettings(){
         showChartBorder: $('#show-chart-border').prop('checked'),
         showDataLabels: $('#show-data-labels').prop('checked'),
         dataLabelsFormat: $('#data-labels-format').val(),
+        dataLabelsRounding: $('#data-labels-rounding').val(),
         valueGreaterThan: $('#value-greater-than').val(),
         seriesColor: $('#series-color').val(),
         exportingSourceWidth: $('#exporting-source-width').val(),
